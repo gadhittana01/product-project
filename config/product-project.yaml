@@ -1,0 +1,15 @@
+db:
+  source:
+    name: "db_source"
+    host: "localhost"
+    port: 5432
+    user: "postgres"
+  destination:
+    name: "db_destination"
+    host: "localhost"
+    port: 5432
+    user: "postgres"
+nsq:
+  address: "127.0.0.1:4150"
+http:
+  port: 8000
